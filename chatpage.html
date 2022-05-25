@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"
+    >
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-attachment: fixed;
+        }
+        .first{
+            display: flex;
+        }
+        .first p{
+            color: darkslategrey;
+            margin-top: -18px;
+            font-size: 120%;
+        }
+        .first{
+            background-color: snow;
+            width: 100%;
+            height: 10%;
+            padding: 10px;
+            margin: 10px;
+            position: relative;
+        }
+        .profileimage{
+            height: 60px;
+            width: 60px;
+            border-radius: 100px;
+        }
+        .sidepart{
+            margin-top: -22px;
+            margin-left: 10px;
+        }
+        #main{
+            width: 30%;
+            margin-top: 58px;
+            position: relative;
+            
+        }
+        #transition{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        #transition:target{
+            height: 91%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            width: 67.4%;
+            left: 32.6%;
+            border-radius: 30px;
+            margin-top: 56px;
+        }
+        #transition2{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        #transition2:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+        }
+        #transition3{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        #transition3:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+        }
+        #transition4{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            
+        }
+        #transition4:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+        
+        }
+        #transition5{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            
+        }
+        #transition5:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+            
+        }
+        #transition6{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            
+        }
+        #transition6:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+        }
+        #transition7{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            
+        }
+        #transition7:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+            
+        }
+        #transition8{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            
+        }
+        #transition8:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+            
+        }
+        #transition9{
+            height: 0;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            
+        }
+        #transition9:target{
+            height: 91%;
+            width: 67.4%;
+            left: 32.6%;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            border-radius: 30px;
+            margin-top: 56px;
+            
+        }
+        #main a{
+            text-decoration: none;
+        }
+        .first:hover{
+            background-color: #E0E0E0;
+        }
+        .top{
+            background-color:#006633 ;
+            height: 70px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            display: flex;
+            padding: 8px;
+            overflow: hidden;
+        }
+        .bottom{
+            display: flex;
+        }
+        #mike{
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            margin-left: 10px;
+        }
+        #emoji{
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;                
+        }
+        .bottom{
+            /*margin-top: 420px;*/
+            margin-left: 3px;
+        }
+        .bottom input{
+            border-radius: 50px;
+            width: 78%;
+            padding: 10px;
+            border-color: white;
+        }
+        .topside{
+            margin-left: 10px;
+            margin-top: -20px;
+            color: white;
+        }
+        .topside p{
+            margin-top:-20px;
+            font-weight: 400;
+        }
+        /*#activenow{
+            animation: anim 3s 1 3s;
+        }*/
+        @keyframes anim{
+            0%{
+                /*margin-top:35px;*/
+                opacity: 0;
+            }
+            100%{
+                /*margin-top:-20px;*/
+                opacity: 1;
+            }
+        }
+
+
+        /*@keyframes anim{
+            0%{
+                margin-left: 100px;
+            }
+            100%{
+                margin-left: 10px;
+            }
+        }*/
+        .videocallicon{
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            margin-left: 440px;
+            margin-top: 7px;
+        }
+        .callicon{
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            margin-top: 7px;
+            margin-left: 27px;
+        }
+        .propertiesicon{
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            margin-top: 7px;
+            margin-left: 27px;
+        }
+        .bottom button img{
+            height: 45px;
+            width: 45px;
+            border-radius: 100px;
+            margin-left: -5px;
+            margin-top: -2px;
+        }
+        .bottom button{
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            margin-left: 8px;
+        }
+        /*.chatpart{
+            height:400px;
+
+        }*/
+        #getchat{
+            padding: 7px;
+        }
+
+        /* hearder part */
+        #container-logo{
+        background-color:rgb(163, 37, 212);
+        top: 0rem;
+        /*position: absolute;*/
+        height:3.5rem;
+        width:100%;
+        left:0rem;
+        position: fixed;
+        z-index: 1;
+    }
+   
+    
+     #logo_first{
+        display: inline-block;
+        position:absolute;
+        color: rgb(223, 227, 231);
+        left: 3.4rem;
+        top:3px;
+     }
+     #logo_second{
+        display: inline-block;
+           position:absolute;
+           top:1.5rem;
+           left:3.4rem;
+           color: rgb(226, 226, 238);
+     }
+     #facebicon{
+        margin-top: 4px;
+        
+     }
+        #search{
+            display: inline-block;
+            position: absolute;
+            left:18rem;
+         
+            top:1rem;
+            color: rgb(229, 229, 241);
+         
+        }
+        #searchbutton{
+            line-height: 1.1rem;
+            /*margin-top: -10px;*/
+        }
+        input {
+            line-height:17x;
+        }
+        divv{
+            border:1px solid rgb(243, 240, 240);
+            height:2rem;  
+            padding: 1px; 
+        }
+    #microphone{
+        margin-left:-11px;
+        color: rgb(8, 16, 22);
+    }
+    #bell{
+        display: inline-block;
+        height:19rem;
+        position: absolute;
+        left:70rem;
+        font-size: xx-large;
+        top:10px;
+        color:rgb(255, 247, 247);
+    }
+    #photo{
+        display: inline-block;
+        position: absolute;
+        left:74rem;
+        top:1px;
+        
+    }
+    .phot{
+        border-radius:50%;
+    }
+    #bell_notification{
+        height:2rem;
+        width:2rem;
+    }
+    #My_post{
+position: absolute;
+top:1rem;
+left:49.5rem;
+}
+#My_Profile{
+    position: absolute;
+    top:1rem;
+    left:55.5rem;
+}
+#About{
+ position: absolute;
+top:1rem;
+left:60rem;
+}
+#home{
+ position: absolute;
+top:1rem;
+left:45rem;
+}
+
+/* this is for chatting */
+        #getchat{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat2{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat3{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat4{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat5{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat6{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat7{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat8{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #getchat9{
+            padding: 7px;
+            vertical-align: bottom;
+        }
+        #contain{
+            height: 79%;
+            overflow: scroll;
+        }
+        #contain::-webkit-scrollbar{
+            display: none;
+        }
+        .whiteline{
+            height: 7px;
+            width: 250px;
+            margin-left: -9px;
+            background-image: url(https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png);
+            margin-top: 4px;
+            margin-bottom: 4px;
+            border-top-left-radius: -100px;
+        }
+        .today{
+            width: 40px;
+            background-color: lightgrey;
+            margin-left: 420px;
+            padding: 3px;
+            margin-top: 4px;
+            color: gray;
+        }
+    </style>
+    <script>
+        //this is transition for first contact............
+        function clickonme1(){
+            document.getElementById('activenow1').style.animation="anim 4s 1";
+        }
+
+         //this is transition for second contact............
+         function clickonme2(){
+            document.getElementById('activenow2').style.animation="anim 4s 1";
+        }
+         //this is transition for third contact............
+         function clickonme3(){
+            document.getElementById('activenow3').style.animation="anim 4s 1";
+        }
+
+         //this is transition for fourth contact............
+         function clickonme4(){
+            document.getElementById('activenow4').style.animation="anim 4s 1";
+        }
+         //this is transition for fifth contact............
+         function clickonme5(){
+            document.getElementById('activenow5').style.animation="anim 4s 1";
+        }
+         //this is transition for sixth contact............
+         function clickonme6(){
+            document.getElementById('activenow6').style.animation="anim 4s 1";
+        }
+         //this is transition for seventh contact............
+         function clickonme7(){
+            document.getElementById('activenow7').style.animation="anim 4s 1";
+        }
+         //this is transition for eighth contact............
+         function clickonme8(){
+            document.getElementById('activenow8').style.animation="anim 4s 1";
+        }
+         //this is transition for ninth contact............
+         function clickonme9(){
+            document.getElementById('activenow9').style.animation="anim 4s 1";
+        }
+
+
+        // this is chat part for first contact
+        var x=[];
+        function sendchat(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting').value;
+            var b=document.getElementById('getchat');
+            x.push(a);
+            var pval="";
+            for(i=0;i<x.length;i++){
+                pval=pval + x[i]+z;
+            }
+            document.getElementById('getchat').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting').value="";
+        }
+       // chart part for second..........................................
+        var d=[];
+        function sendchat2(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting2').value;
+            var b=document.getElementById('getchat2');
+            d.push(a);
+            var pval="";
+            for(i=0;i<d.length;i++){
+                pval=pval + d[i]+z;
+            }
+            document.getElementById('getchat2').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting2').value="";
+        }
+
+        //chat part for third contact..................................................
+        var e=[];
+        function sendchat3(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting3').value;
+            var b=document.getElementById('getchat3');
+            e.push(a);
+            var pval="";
+            for(i=0;i<e.length;i++){
+                pval=pval + e[i]+z;
+            }
+            document.getElementById('getchat3').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting3').value="";
+        }
+        //chat part for fourth contact..........................
+        var f=[];
+        function sendchat4(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting4').value;
+            var b=document.getElementById('getchat4');
+            f.push(a);
+            var pval="";
+            for(i=0;i<f.length;i++){
+                pval=pval + f[i]+z;
+            }
+            document.getElementById('getchat4').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting4').value="";
+        }
+        //for fifth..........................................................
+        var g=[];
+        function sendchat5(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting5').value;
+            var b=document.getElementById('getchat5');
+            g.push(a);
+            var pval="";
+            for(i=0;i<g.length;i++){
+                pval=pval + g[i]+z;
+            }
+            document.getElementById('getchat5').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting5').value="";
+        }
+        //for sixth..........................................................
+        var h=[];
+        function sendchat6(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting6').value;
+            var b=document.getElementById('getchat6');
+            h.push(a);
+            var pval="";
+            for(i=0;i<h.length;i++){
+                pval=pval + h[i]+z;
+            }
+            document.getElementById('getchat6').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting6').value="";
+        }
+        //for seventh....................................................
+        var k=[];
+        function sendchat7(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting7').value;
+            var b=document.getElementById('getchat7');
+            k.push(a);
+            var pval="";
+            for(i=0;i<k.length;i++){
+                pval=pval + k[i]+z;
+            }
+            document.getElementById('getchat7').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting7').value="";
+        }
+        //for eighth.....................................
+        var l=[];
+        function sendchat8(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting8').value;
+            var b=document.getElementById('getchat8');
+            l.push(a);
+            var pval="";
+            for(i=0;i<l.length;i++){
+                pval=pval + l[i]+z;
+            }
+            document.getElementById('getchat8').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting8').value="";
+        }
+        //for ninth....................................................
+        var m=[];
+        function sendchat9(){
+            var z=document.getElementById('gap').innerHTML;
+            var a=document.getElementById('chatting9').value;
+            var b=document.getElementById('getchat9');
+            m.push(a);
+            var pval="";
+            for(i=0;i<m.length;i++){
+                pval=pval + m[i]+z;
+            }
+            document.getElementById('getchat9').innerHTML=pval;
+            b.style.backgroundColor='white';
+            b.style.borderRadius='10px';
+            b.style.borderTopRightRadius='0px';
+            b.style.width='200px';
+            b.style.fontFamily='cursive';
+            b.style.fontSize='20px';
+            //b.style.margintop='-5px';
+            b.style.paddingBottom='0px';
+            b.style.marginLeft='650px';
+            document.getElementById('chatting9').value="";
+        }
+
+
+    </script>
+</head>
+<body>
+    <div id="container-logo">
+        <div id="facebicon">   
+                     <img src="https://www.chitkara.edu.in/wp-content/themes/chitkara/images/cu-icon.png"
+                   alt="logo" height="40px" width="40px">
+        </div>
+        
+                      <div id="logo_first"> CHITKARA</div>
+                      <div id="logo_second"> COMMUNITY</div>
+                    
+                      <div id="search"><divv><i class="fas fa-search"></i></divv><input id="searchbutton" type="text" placeholder="Search in community" size="34"><i id="microphone" class="fas fa-microphone"></i></div> 
+                      <div id="bell"><i id="bell_notification" class="fas fa-bell"></i></div> 
+                      <div id="photo"><img class="phot" src="https://i.pinimg.com/originals/b9/33/37/b933376b2af3c1dad244431a9cf64fde.jpg"
+                         height="50px" width="50px"></div> 
+                        <a href="aslimypostforchitkaraproject.html"><div id="My_post"><button style="width:5rem; background-color: aliceblue; color: rgb(163, 37, 212);">My Posts</button></div></a> 
+                        <a href="finalhomepageforproject.html"> <div id="home"><button style=" background-color: aliceblue; color: rgb(163, 37, 212);">Home</button></div></a> 
+                        <a href="profilepagechitkaraproject.html"><div id="My_Profile"><button style=" background-color: aliceblue; color: rgb(163, 37, 212);">Profile</button></div></a> 
+                        <a href="realaboutpageforchitkaraproject.html"> <div id="About"><button style=" background-color: aliceblue; color: rgb(163, 37, 212);">About</button></div></a>
+    </div>
+
+
+    <div id="main">
+        <a href="#transition"><div class="first" onclick="clickonme1()"> 
+            <img src="http://www.goodmorningimagesdownload.com/wp-content/uploads/2019/12/Profile-Picture-4.jpg" class="profileimage">
+            <div class="sidepart">
+                <h3>Sneha Jindal</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition">
+            <div class="top">
+                <img src="http://www.goodmorningimagesdownload.com/wp-content/uploads/2019/12/Profile-Picture-4.jpg" class="profileimage">
+                <div class="topside">
+                    <h1 id="aboveactive">Sneha Jindal</h1>
+                    <p id="activenow1">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+    <!--chat partt -->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chat partt endss............................................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting">
+                <button type="submit" onclick="sendchat();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+        <a href="#transition2"><div class="first" onclick="clickonme2()"> 
+            <img src="https://i.pinimg.com/564x/a9/d6/05/a9d60534f8f7b6e7d960892db9b0f4ae.jpg" class="profileimage">
+            <div class="sidepart">
+                <h3>Rahul</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition2">
+            <div class="top">
+                <img src="https://i.pinimg.com/564x/a9/d6/05/a9d60534f8f7b6e7d960892db9b0f4ae.jpg" class="profileimage">
+                <div class="topside">
+                    <h1>Rahul</h1>
+                    <p id="activenow2">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+<!--chatt partt for seconddd-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat2"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for seconddd enss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting2">
+                <button type="submit" onclick="sendchat2();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+        <a href="#transition3"><div class="first" onclick="clickonme3()"> 
+            <img src="https://www.whatsappprofiledpimages.com/wp-content/uploads/2021/10/4k-alone-Latest-Beautiful-Whatsapp-Dp-Profile-Images-photo.gif" class="profileimage">
+            <div class="sidepart">
+                <h3>Sanjana</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition3">
+            <div class="top">
+                <img src="https://www.whatsappprofiledpimages.com/wp-content/uploads/2021/10/4k-alone-Latest-Beautiful-Whatsapp-Dp-Profile-Images-photo.gif" class="profileimage">
+                <div class="topside">
+                    <h1>Sanjana</h1>
+                    <p id="activenow3">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+            <!--chatt partt for third-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat3"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for third endss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting3">
+                <button type="submit" onclick="sendchat3();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+        <a href="#transition4"><div class="first" onclick="clickonme4()"> 
+            <img src="https://images.statusfacebook.com/profile_pictures/attractive/attractive-72.jpg" class="profileimage">
+            <div class="sidepart">
+                <h3>Muskan Goel</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition4">
+            <div class="top">
+                <img src="https://images.statusfacebook.com/profile_pictures/attractive/attractive-72.jpg" class="profileimage">
+                <div class="topside">
+                    <h1>Muskan goel</h1>
+                    <p id="activenow4">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+            <!--chatt partt for 4-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat4"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for 4 endss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting4">
+                <button type="submit" onclick="sendchat4();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+
+        <a href="#transition5"><div class="first" onclick="clickonme5()"> 
+            <img src="https://1.bp.blogspot.com/-ApSj-P95I3s/YJbE70pAnYI/AAAAAAAADPs/GS-dGCYsgRk7N6b3YpkFi8ondHOZ1AszACLcBGAsYHQ/s400/whatsapp%2Battractive%2Bdp.jpeg" class="profileimage">
+            <div class="sidepart">
+                <h3>Abhishek</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition5">
+            <div class="top">
+                <img src="https://1.bp.blogspot.com/-ApSj-P95I3s/YJbE70pAnYI/AAAAAAAADPs/GS-dGCYsgRk7N6b3YpkFi8ondHOZ1AszACLcBGAsYHQ/s400/whatsapp%2Battractive%2Bdp.jpeg" class="profileimage">
+                <div class="topside">
+                    <h1>Abhishek</h1>
+                    <p id="activenow5">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+            <!--chatt partt for 5-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat5"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for 5 endss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting5">
+                <button type="submit" onclick="sendchat5();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+
+        <a href="#transition6"><div class="first" onclick="clickonme6()"> 
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/76/47/seamless-pattern-of-many-different-people-profile-vector-22807647.jpg" class="profileimage">
+            <div class="sidepart">
+                <h3>Garvit Goel</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition6">
+            <div class="top">
+                <img src="https://cdn3.vectorstock.com/i/1000x1000/76/47/seamless-pattern-of-many-different-people-profile-vector-22807647.jpg" class="profileimage">
+                <div class="topside">
+                    <h1>Garvit Goel</h1>
+                    <p id="activenow6">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+            <!--chatt partt for 6-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat6"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for 6 endss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting6">
+                <button type="submit"  onclick="sendchat6();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+
+        <a href="#transition7"><div class="first" onclick="clickonme7()"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7Sd-U0_aLFxhP4yZKZ5611Qwv7hd_8Zjg&usqp=CAU" class="profileimage">
+            <div class="sidepart">
+                <h3>Arsh</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition7">
+            <div class="top">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7Sd-U0_aLFxhP4yZKZ5611Qwv7hd_8Zjg&usqp=CAU" class="profileimage">
+                <div class="topside">
+                    <h1>Arsh</h1>
+                    <p id="activenow7">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+            <!--chatt partt for 7-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat7"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for 7 endss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting7">
+                <button type="submit" onclick="sendchat7();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+
+        <a href="#transition8"><div class="first" onclick="clickonme8()"> 
+            <img src="https://petapixel.com/assets/uploads/2016/11/develop.jpg" class="profileimage">
+            <div class="sidepart">
+                <h3>Vihaan</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition8">
+            <div class="top">
+                <img src="https://petapixel.com/assets/uploads/2016/11/develop.jpg" class="profileimage">
+                <div class="topside">
+                    <h1>Vihaan</h1>
+                    <p id="activenow8">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+            <!--chatt partt for 8-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat8"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for 8 endss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting8">
+                <button type="submit" onclick="sendchat8();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+        <a href="#transition9"><div class="first" onclick="clickonme9()"> 
+            <img src="https://image.shutterstock.com/image-vector/female-person-default-profile-no-260nw-2069253950.jpg" class="profileimage">
+            <div class="sidepart">
+                <h3>Amiti</h3>
+                <p>start chat...</p>
+            </div>
+        </div></a>
+        <div id="transition9">
+            <div class="top">
+                <img src="https://image.shutterstock.com/image-vector/female-person-default-profile-no-260nw-2069253950.jpg" class="profileimage">
+                <div class="topside">
+                    <h1>Amiti</h1>
+                    <p id="activenow9">Active now</p>
+                </div>
+                <img src="https://image.shutterstock.com/image-vector/outline-thin-whatsapp-video-call-260nw-519054457.jpg" class="videocallicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDQ21MNtEwwAUGee9voNE0i8IlAiHyvOu_Q&usqp=CAU" class="callicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbxjLG_ZMoct-UHvvI33CwzDTy1R-w7brzZBhRG4wBYRE9hRSpuGv1wfUUPjTY8Xb_vo&usqp=CAU" class="propertiesicon">
+            </div>
+            <!--chatt partt for 9-->
+            <div id="contain">
+                <div class="today"> Today</div>
+                <p id="getchat9"></p>
+                <div id="gap"><p class="whiteline"></p></div>
+            </div>
+<!--chatt partt for 9 endss.............................-->
+            <div class="bottom">
+                <img src="https://ih1.redbubble.net/image.1994936544.9145/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.jpg" id="emoji">
+                <input type="text" name="message" placeholder="Message" id="chatting9">
+                <button type="submit" onclick="sendchat9();"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvMvIb6rtqvpI98Q6BJZSyOq6szspa2kIpg&usqp=CAU"></button>
+                <img src="https://image.shutterstock.com/image-vector/whatsapp-send-voice-message-vector-260nw-471615695.jpg" id="mike">
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

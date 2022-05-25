@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<head><title>
+ My Profile
+</title>
+<link rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"
+>
+</head>
+<style>
+    #container-logo{
+        background-color: rgb(163, 37, 212);
+    top: 0rem;
+    
+    height: 3.5rem;
+    width: 100%;
+    left: 0rem;
+   position: absolute;
+    z-index: 1;
+    }
+   
+    
+     #logo_first{
+        display: inline-block;
+           position:absolute;
+          color: rgb(238, 240, 241);
+         left: 3.4rem;
+     }
+     #logo_second{
+        display: inline-block;
+           position:absolute;
+           top:1.5rem;
+           left:3.4rem;
+           color: rgb(242, 242, 248);
+     }
+     facebicon{
+         height:3rem;
+         width:4rem;
+     }
+     #fav{
+         display: inline-block;
+         position: absolute;
+         left:17rem;
+         top:1rem;
+        color: rgb(23, 23, 24);
+        }
+        #search{
+            display: inline-block;
+         position: absolute;
+         left:18rem;
+         top:1rem;
+         color: rgb(224, 224, 235);
+         
+        }
+        input {
+            line-height:17x;
+        }
+       divv{
+        border:2px solid grey;
+    height:1rem;   
+    }
+    #microphone{
+        margin-left:-11px;
+        color: rgb(8, 16, 22);
+    }
+    #bell{
+        display: inline-block;
+        height:5rem;
+         position: absolute;
+         left:70rem;
+         color:rgb(10, 10, 10);
+    }
+    #photo{
+        display: inline-block;
+         position: absolute;
+         left:74rem;
+         top:1px;
+        
+    }
+    #phot{
+        border-radius:50%;
+    }
+    #upper_part{
+        background-color: azure;
+    }
+    #profilepage_text{
+        height:2.7rem;
+        padding-top:0.5rem;
+        width:28rem;
+        font-size: xx-large;
+        background-color: rgb(153, 24, 192);
+        margin-top: 4rem;
+        padding-left:22rem;
+
+        margin-left: 15rem;
+        color: aliceblue;
+        border-radius: 8px;
+    }
+    #HOME{
+        position: absolute;
+        top:5rem;
+        left:71rem;
+        height:2rem;
+        width:6rem;
+        background-color: black;
+        color: aliceblue;
+        transition: all 1s;
+    }
+    #HOME:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    #mypost{
+        position: absolute;
+        top:8rem;
+        left:71rem;
+        height:2rem;
+        width:6rem;
+        background-color: black;
+        color: aliceblue;
+        transition: all 1s;
+    }
+    #mypost:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    #about{
+        position: absolute;
+        top:11rem;
+        left:71rem;
+        height:2rem;
+        width:6rem;
+        background-color: black;
+        color: aliceblue;
+        transition: all 1s;
+    }
+    #about:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    #coverimage{
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/ParthenosSylviaButterfly.jpg");
+        background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+        height:300px;
+        width:800px;
+        
+
+margin-left: 15rem;
+opacity: 0.5;
+
+    }
+    #my_image{
+        margin-top:2rem;
+        margin-left:16rem;
+       position:relative
+    }
+    #hair_image{ 
+          border-radius: 50%;
+          margin-top:-70px;
+         
+    }
+    #name_and_text{
+        margin-top: -6rem;
+        margin-left:11rem;
+        font-size: larger;
+    }
+    #ccoovveerr{
+        position: absolute;
+        top:10rem;
+        height:2.7rem;
+        width:6rem;
+        background-color: black;
+        color: aliceblue;
+        transition: all 1s;
+
+    }
+    #ccoovveerr:hover{
+      background-color: aliceblue;
+      color: black;
+    }
+    #pprrooffiillee{
+        position: absolute;
+        top:14rem;
+        height:2.7rem;
+        width:6rem;
+        background-color: black;
+        color: aliceblue;
+        transition: all 1s;
+
+    }
+    #pprrooffiillee:hover{
+      background-color: aliceblue;
+      color: black;
+    }
+    #button_edit{
+        margin-top:-2rem;
+  margin-left: 40rem;
+    }
+    #btnprofileedit{
+        height:2rem;
+        width:8rem;
+    }
+    #divide{
+        margin-top: 2.7rem;
+        height:2px;
+        width:100%;
+        background-color: black;
+    }
+    #intro{
+        display: inline-block;
+    }
+    
+    #introfieldset{
+        margin-top: 5rem;
+        width:20rem;
+        margin-left: 14rem;
+        height:19rem;
+    }
+    #introlegend{
+     font-size: xx-large;
+
+    }
+    .linkfor{
+        text-decoration: none;
+    }
+    .insidefieldset{
+        margin-top:1rem;
+        margin-left:4rem;
+        height:1.5rem;
+        padding-top: 0.4rem;
+        
+        width:7rem;
+        padding-left: 5rem;
+        background-color: rgb(207, 119, 241);
+        border:2px solid rgb(238, 22, 202);
+        color: aliceblue;
+    }
+    #different_section{
+        background-image: url("https://images.unsplash.com/photo-1518022525094-218670c9b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+        background-size: cover;
+    background-position: center;
+        display: inline-block;
+        position: relative;
+        top:-3.1rem;
+        height: 19rem;
+        width:30rem;
+        
+        border-top: 7px solid grey;
+        border-left: 7px solid grey;
+        border-right: 7px solid grey;
+
+    }
+    #listunordered{
+        margin-top: 4rem;
+        color: aliceblue;
+    }
+    .insidedifferent_section{
+        margin-top:1rem;
+        margin-left:7rem;
+        height:1.5rem;
+        padding-top: 0.4rem;
+        width:7rem;
+        font-size: larger;
+        padding-left: 5rem;
+        background-color: rgb(71, 11, 95);
+        border:2px solid rgb(238, 22, 202);
+        color: aliceblue;
+    }
+    #edit_bio{
+margin-left:22rem;
+    }
+    #total_connection{
+        margin-left:13.7rem;
+        height:33rem;
+        width:52rem;
+        border:3px rgb(84, 97, 37) double;
+    }
+    #noofconnection{
+        margin-left:19rem;
+ color: rgb(238, 247, 247);
+ 
+ background-color: rgb(104, 12, 128);
+        margin-top: 0.5rem;
+        height:1.5rem;
+        padding-top: 0.8rem;
+        padding-left: 2rem;
+        width:13rem;
+    }
+    .photo_first{
+       box-shadow: 0px 0px 5px 5px grey;
+        display: inline-block;
+        margin-left:2rem;
+        height:7rem;
+        margin-top: 2rem;
+        width:6rem;
+        border:2px solid rgb(99, 13, 94);
+    }
+    .cool_boy{
+        margin-left:0.8rem;
+    }
+    /*#saving{
+margin-left: 10rem;
+    }*/
+    #My_post{
+position: absolute;
+top:1rem;
+left:49rem;
+z-index:3;
+}
+#My_home{
+    position: absolute;
+top:1rem;
+z-index:3;
+left:55rem;
+}
+#About{
+    position: absolute;
+top:1rem;
+z-index:3;
+left:60rem;
+}
+#bell_notification{
+           height:2rem;
+           width:2rem;
+       }
+       #bell{
+           display: inline-block;
+           height:19rem;
+            position: absolute;
+            left:70rem;
+            font-size: xx-large;
+            top:10px;
+            color:rgb(255, 247, 247);
+       }
+    </style>
+
+<body>
+    <section id="upper_part">
+    <div id="container-logo">
+
+       <img src="https://www.chitkara.edu.in/wp-content/themes/chitkara/images/cu-icon.png"
+       height="40px" width="40px">
+         <div id="logo_first"> CHITKARA</div>
+         <div id="logo_second"> COMMUNITY</div>
+       
+         <div id="search"><divv><i class="fas fa-search"></i></divv><input id="searchbutton" type="text" placeholder="Search in community" size="25"><i id="microphone" class="fas fa-microphone"></i></div> 
+         <div id="bell"><i id="bell_notification" class="fas fa-bell"></i></div> 
+         <div id="photo"><img id="phot" src="https://i.pinimg.com/originals/b9/33/37/b933376b2af3c1dad244431a9cf64fde.jpg"
+            height="50px" width="50px"></div>  
+    </div>
+    <button id="ccoovveerr"> Edit Cover Photo</button>
+    <button id="pprrooffiillee">Edit Profile Photo</button>
+    
+    <a href="aslimypostforchitkaraproject.html"><div id="My_post"><button  style=" border:2px solid white;  background-color: aliceblue; color: rgb(163, 37, 212);" >My Posts</button></div></a> 
+    <a href="finalhomepageforproject.html"><div id="My_home"><button  style="  border:2px solid white; background-color: aliceblue; color: rgb(163, 37, 212);" >HOme</button></div></a> 
+    <a href="realaboutpageforchitkaraproject.html"> <div id="About"><button  style="  border:2px solid white; background-color: aliceblue; color: rgb(163, 37, 212);">About</button></div></a>
+            
+<div id="profilepage_text"> My Profile</div>
+<div id="coverimage">
+   <!--<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/ParthenosSylviaButterfly.jpg"
+    height="300px" width="800px">--> 
+
+</div>
+<div id="my_image">
+    <img id="hair_image" src="https://i.pinimg.com/originals/b9/33/37/b933376b2af3c1dad244431a9cf64fde.jpg"
+    height="150px" width="150px">
+    <div id="name_and_text">
+        YOUR NAME<br><br>Username<br> Student
+    </div>
+    <div id="button_edit"> <button id="btnprofileedit" > Edit profile</button></div>
+</div>
+<div id="divide"></div>
+</section>
+<div id="intro">
+    <fieldset id="introfieldset">
+        <legend id="introlegend"> Intro </legend>
+        <div class="insidefieldset" style=" background-color: rgb(71, 11, 95);
+        border:2px solid rgb(238, 22, 202);
+        color: aliceblue;"> BIO</div>
+        <hr>
+      <a class="linkfor" href="detailsfromprofilepage.html">  <div class="insidefieldset"> DETAILS</div></a><hr>
+       <a  class="linkfor" href="hobbiesforchitkarauniversity.html"> <div class="insidefieldset"> HOBBIES </div></a><hr>
+        <a class="linkfor" href="morepageforprofilepage.html"><div class="insidefieldset"> MORE</div></a>
+
+    </fieldset>
+</div>
+<div id="different_section">
+    <div class="insidedifferent_section"> BIO</div>
+    <div id="listunordered">
+    <ul>
+        <li>
+            Creating a life, I love.
+    
+        </li>
+        <li>
+            Simplicity is the key to happiness.
+    
+        </li>
+        <li>
+            In a world of worriers, be a warrior.
+    
+        </li>
+        <li>
+            Captivated from life, showing it here.
+    
+        </li>
+        <li>
+            
+    We have tomorrows for reason.
+    
+        </li>
+        <li>
+            I practice what I post.
+        </li>
+    </ul>
+</div>
+<button id="edit_bio">Edit Bio</button>
+<button id="saving">Save</button>
+</div>
+<div id="total_connection">
+    <div id="noofconnection">TOTAL CONNECTION</div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/64437522_2201447716591615_5722745709455736832_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=j7o5FN4rRA0AX_WShvs&_nc_ht=scontent.fdel1-1.fna&oh=00_AT-iO05xo8qlyqPAHj_0H-OvLv4imbuI5XfWdkokk1x7iw&oe=61FF8402"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/64437522_2201447716591615_5722745709455736832_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=j7o5FN4rRA0AX_WShvs&_nc_ht=scontent.fdel1-1.fna&oh=00_AT-iO05xo8qlyqPAHj_0H-OvLv4imbuI5XfWdkokk1x7iw&oe=61FF8402"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/64437522_2201447716591615_5722745709455736832_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=j7o5FN4rRA0AX_WShvs&_nc_ht=scontent.fdel1-1.fna&oh=00_AT-iO05xo8qlyqPAHj_0H-OvLv4imbuI5XfWdkokk1x7iw&oe=61FF8402"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/64437522_2201447716591615_5722745709455736832_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=j7o5FN4rRA0AX_WShvs&_nc_ht=scontent.fdel1-1.fna&oh=00_AT-iO05xo8qlyqPAHj_0H-OvLv4imbuI5XfWdkokk1x7iw&oe=61FF8402"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+        </div>
+        <div class="photo_first">
+            <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/64437522_2201447716591615_5722745709455736832_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=j7o5FN4rRA0AX_WShvs&_nc_ht=scontent.fdel1-1.fna&oh=00_AT-iO05xo8qlyqPAHj_0H-OvLv4imbuI5XfWdkokk1x7iw&oe=61FF8402"
+            height="70px" width="70px"><hr>
+            Rahul Sharma
+        </div>
+        <div class="photo_first">
+            <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/64437522_2201447716591615_5722745709455736832_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=j7o5FN4rRA0AX_WShvs&_nc_ht=scontent.fdel1-1.fna&oh=00_AT-iO05xo8qlyqPAHj_0H-OvLv4imbuI5XfWdkokk1x7iw&oe=61FF8402"
+            height="70px" width="70px"><hr>
+            Rahul Sharma
+        </div>
+    <br>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-5.fna.fbcdn.net/v/t1.6435-9/64210559_2201447283258325_4491792921187581952_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=vkw5eZh4KWMAX-PJOyQ&_nc_ht=scontent.fdel1-5.fna&oh=00_AT_XwJS_EEbNmDkGKkOZXZpjCQdFFWEYZOHwm8UCKurXYQ&oe=620158CE"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-5.fna.fbcdn.net/v/t1.6435-9/64210559_2201447283258325_4491792921187581952_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=vkw5eZh4KWMAX-PJOyQ&_nc_ht=scontent.fdel1-5.fna&oh=00_AT_XwJS_EEbNmDkGKkOZXZpjCQdFFWEYZOHwm8UCKurXYQ&oe=620158CE"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-5.fna.fbcdn.net/v/t1.6435-9/64210559_2201447283258325_4491792921187581952_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=vkw5eZh4KWMAX-PJOyQ&_nc_ht=scontent.fdel1-5.fna&oh=00_AT_XwJS_EEbNmDkGKkOZXZpjCQdFFWEYZOHwm8UCKurXYQ&oe=620158CE"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-5.fna.fbcdn.net/v/t1.6435-9/64210559_2201447283258325_4491792921187581952_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=vkw5eZh4KWMAX-PJOyQ&_nc_ht=scontent.fdel1-5.fna&oh=00_AT_XwJS_EEbNmDkGKkOZXZpjCQdFFWEYZOHwm8UCKurXYQ&oe=620158CE"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-5.fna.fbcdn.net/v/t1.6435-9/64210559_2201447283258325_4491792921187581952_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=vkw5eZh4KWMAX-PJOyQ&_nc_ht=scontent.fdel1-5.fna&oh=00_AT_XwJS_EEbNmDkGKkOZXZpjCQdFFWEYZOHwm8UCKurXYQ&oe=620158CE"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-5.fna.fbcdn.net/v/t1.6435-9/64210559_2201447283258325_4491792921187581952_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=vkw5eZh4KWMAX-PJOyQ&_nc_ht=scontent.fdel1-5.fna&oh=00_AT_XwJS_EEbNmDkGKkOZXZpjCQdFFWEYZOHwm8UCKurXYQ&oe=620158CE"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <br>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/62554430_2201447646591622_5978335614058102784_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2wWvMAzosCAAX8wf4jn&_nc_ht=scontent.fdel1-1.fna&oh=00_AT810by9aJ_rFUW2Pdad5oCQZI8gWDI0OCRAtBFGeAWN8A&oe=61FE868D"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/62554430_2201447646591622_5978335614058102784_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2wWvMAzosCAAX8wf4jn&_nc_ht=scontent.fdel1-1.fna&oh=00_AT810by9aJ_rFUW2Pdad5oCQZI8gWDI0OCRAtBFGeAWN8A&oe=61FE868D"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/62554430_2201447646591622_5978335614058102784_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2wWvMAzosCAAX8wf4jn&_nc_ht=scontent.fdel1-1.fna&oh=00_AT810by9aJ_rFUW2Pdad5oCQZI8gWDI0OCRAtBFGeAWN8A&oe=61FE868D"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/62554430_2201447646591622_5978335614058102784_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2wWvMAzosCAAX8wf4jn&_nc_ht=scontent.fdel1-1.fna&oh=00_AT810by9aJ_rFUW2Pdad5oCQZI8gWDI0OCRAtBFGeAWN8A&oe=61FE868D"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/62554430_2201447646591622_5978335614058102784_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2wWvMAzosCAAX8wf4jn&_nc_ht=scontent.fdel1-1.fna&oh=00_AT810by9aJ_rFUW2Pdad5oCQZI8gWDI0OCRAtBFGeAWN8A&oe=61FE868D"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+    <div class="photo_first">
+        <img class="cool_boy" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.6435-9/62554430_2201447646591622_5978335614058102784_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2wWvMAzosCAAX8wf4jn&_nc_ht=scontent.fdel1-1.fna&oh=00_AT810by9aJ_rFUW2Pdad5oCQZI8gWDI0OCRAtBFGeAWN8A&oe=61FE868D"
+        height="70px" width="70px"><hr>
+        Rahul Sharma
+    </div>
+</div>
+
+
+
+</body>
+</html>
