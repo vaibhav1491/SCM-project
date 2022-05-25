@@ -1,2 +1,2 @@
-# SCM-project
+# SCM_project
 project
