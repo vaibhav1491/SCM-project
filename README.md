@@ -1,2 +1,2 @@
 # SCM_project
-project
+PROJECT
