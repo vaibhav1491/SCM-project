@@ -714,3 +714,4 @@ function toggleHead7(){
         cool_dude.style.visibility='visible'
     }
 }
+//this is js page
